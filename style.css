@@ -1,0 +1,65 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+ #home {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/industrial-designers-working-3d-model.jpg') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.card:hover {
+      transform: translateY(-8px);
+      transition: transform 0.3s ease;
+    }
+
+footer a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+form .form-control {
+  border-radius: 0.5rem;
+}
+
+.btn-outline-light {
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+.btn-link-style {
+  background: none;
+  border: none;
+  color: #0d6efd; /* Bootstrap primary blue */
+  padding: 0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-link-style:hover {
+  text-decoration: underline;
+  background: none;
+}
